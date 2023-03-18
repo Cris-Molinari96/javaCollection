@@ -82,18 +82,18 @@ public class Main {
     private static void exercise3() {
         System.out.println("\nExercise 3: ");
         // Your code here
-        TrafficLight red = TrafficLight.RED;
+        TrafficLight red = TrafficLight.RED; // Cosi abbiamo creato delle instanze di TrafficLight
         TrafficLight yellow = TrafficLight.YELLOW;
         TrafficLight green = TrafficLight.GREEN;
-//        stateCurrent(green);
-//        stateCurrent(red);
-//        stateCurrent(yellow);
-        //! Quindi come sopra possiamo richiamare un metodo di un enums in questo modo, passando come parametro il percorso dell'enumarzione
-        TrafficLight.GREEN.stateCurrentTrafficLight(TrafficLight.GREEN);
-        TrafficLight.RED.stateCurrentTrafficLight(TrafficLight.RED);
-        TrafficLight.YELLOW.stateCurrentTrafficLight(TrafficLight.YELLOW);
+
+        red.currentStateTrafficLight("RED");
+
+        //! 1) Quindi come sopra possiamo richiamare un metodo di un enums in questo modo, passando come parametro il percorso dell'enumarzione
+//        TrafficLight.GREEN.stateCurrentTrafficLight(TrafficLight.GREEN);
+//        TrafficLight.RED.stateCurrentTrafficLight(TrafficLight.RED);
+//        TrafficLight.YELLOW.stateCurrentTrafficLight(TrafficLight.YELLOW);
     }
-    // Oppure possiamo creare un metodo statico, stessa cosa
+    // 2) O possiamo creare un metodo statico, stessa cosa
     public static TrafficLight stateCurrent(TrafficLight current){
         switch (current){
             case GREEN -> System.out.println(TrafficLight.RED);
