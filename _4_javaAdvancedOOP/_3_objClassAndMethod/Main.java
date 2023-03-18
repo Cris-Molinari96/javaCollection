@@ -1,6 +1,4 @@
-package argoumentsAndExercise._b_develhopeExercise.esercizi_2_JavaAdvancedOOP._3_objClassAndMethod;
-
-import java.lang.reflect.Field;
+package a_javaExerciseForGithub._4_javaAdvancedOOP._3_objClassAndMethod;
 
 public class Main {public static void main(String[] args) {
     exercise1();

@@ -1,6 +1,4 @@
-package argoumentsAndExercise._b_develhopeExercise.esercizi_2_JavaAdvancedOOP._3_objClassAndMethod;
-
-import java.util.Objects;
+package a_javaExerciseForGithub._4_javaAdvancedOOP._3_objClassAndMethod;
 
 public class Person {
     private int id ;

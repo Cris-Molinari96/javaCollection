@@ -1,5 +1,7 @@
 package a_javaExerciseForGithub._3__javaAdvanced._3_collection;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.*;
 
 public class Main {
@@ -35,25 +37,31 @@ public class Main {
      *    the method should take a collection as a parameter
      */
     private static void exercise2() {
+        System.out.println("Exe 2");
         // Your code here
         List<String> list = Arrays.asList("apple", "banana", "apple", "orange", "kiwi", "banana");
         Set<String> set = Set.of("apple", "banana");
-        toSet(list);
-        toSet(set);
+        System.out.print("to list -> " + toList(list));
+        System.out.println("\n");
+        System.out.print("to set -> " + toSet(set));
     }
 
     // Write your method for exercise 2 here
-    public static List toSet(List <String> l){
-        return l;
+    public static List toList(List <String> list){
+//        for (String l : list) {}
+        return list;
     }
-    public static Set toSet(Set <String> s){
-        return s;
+    public static Set toSet(Set <String> set){
+//        for (String s : set) {}
+        return set;
     }
 
     /**
      * 3: Follow the instructions in the comments
      */
     private static void exercise3() {
+
+        System.out.println("\n"+"Exe 3 ");
         String str = "the fox and the lazy dog saw another fox with another not lazy dog";
         List<String> words = Arrays.stream(str.split(" ")).toList();
         System.out.println(words);
