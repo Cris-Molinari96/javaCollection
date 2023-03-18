@@ -86,7 +86,7 @@ public class Main {
         TrafficLight yellow = TrafficLight.YELLOW;
         TrafficLight green = TrafficLight.GREEN;
 
-        red.currentStateTrafficLight("RED");
+        red.nextStateTrafficLight("RED");
 
         //! 1) Quindi come sopra possiamo richiamare un metodo di un enums in questo modo, passando come parametro il percorso dell'enumarzione
 //        TrafficLight.GREEN.stateCurrentTrafficLight(TrafficLight.GREEN);

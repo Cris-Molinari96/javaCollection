@@ -9,7 +9,7 @@ public enum TrafficLight {
     TrafficLight(String s ) {
     }
 
-    public void currentStateTrafficLight(String s ){
+    public void nextStateTrafficLight(String s ){
         switch (s.strip().toLowerCase()){
             case "red" : System.out.println(GREEN);
             case "yellow" : System.out.println(RED);
