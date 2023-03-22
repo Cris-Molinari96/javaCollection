@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._3__javaAdvanced._1_set;
+package _1_javaExerciseForGithub._3__javaAdvanced._1_set;
 
 import java.util.*;
 

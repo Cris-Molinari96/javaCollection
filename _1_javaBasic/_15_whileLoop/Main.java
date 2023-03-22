@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._1_javaBasic._15_whileLoop;
+package _1_javaExerciseForGithub._1_javaBasic._15_whileLoop;
 
 public class Main {
     public static void main(String[] args) {

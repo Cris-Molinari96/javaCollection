@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._1_javaBasic._12_recapChallenges;
+package _1_javaExerciseForGithub._1_javaBasic._12_recapChallenges;
 
 public class Main {
     public static void main(String[] args) {

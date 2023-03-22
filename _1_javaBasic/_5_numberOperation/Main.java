@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._1_javaBasic._5_numberOperation;
+package _1_javaExerciseForGithub._1_javaBasic._5_numberOperation;
 
 public class Main {
     public static void main(String[] args){

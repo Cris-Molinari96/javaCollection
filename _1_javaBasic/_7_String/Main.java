@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._1_javaBasic._7_String;
+package _1_javaExerciseForGithub._1_javaBasic._7_String;
 
 public class Main {
     public static void main(String[] args) {

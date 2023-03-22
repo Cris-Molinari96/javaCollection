@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._1_javaBasic._4_VariabilesNamingConvertions;
+package _1_javaExerciseForGithub._1_javaBasic._4_VariabilesNamingConvertions;
 
 public class Main {
 

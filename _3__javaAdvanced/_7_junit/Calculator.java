@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._3__javaAdvanced._7_junit;
+package _1_javaExerciseForGithub._3__javaAdvanced._7_junit;
 
 public class Calculator {
     public int add(int a, int b) {return a + b;}

@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._3__javaAdvanced._6_enums;
+package _1_javaExerciseForGithub._3__javaAdvanced._6_enums;
 
 public enum Days {
     MONDAY,

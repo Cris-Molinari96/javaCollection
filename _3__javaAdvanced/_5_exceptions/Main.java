@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._3__javaAdvanced._5_exceptions;
+package _1_javaExerciseForGithub._3__javaAdvanced._5_exceptions;
 
 import java.nio.file.Files;
 import java.nio.file.Path;

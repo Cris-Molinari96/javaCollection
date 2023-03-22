@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._2_javaOOP._2_construct;
+package _1_javaExerciseForGithub._2_javaOOP._2_construct;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._3__javaAdvanced._4_readingWritingToAFile;
+package _1_javaExerciseForGithub._3__javaAdvanced._4_readingWritingToAFile;
 
 import java.nio.file.Files;
 import java.nio.file.Path;

@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._2_javaOOP._2_construct;
+package _1_javaExerciseForGithub._2_javaOOP._2_construct;
 
 public class Student {
     String name ;

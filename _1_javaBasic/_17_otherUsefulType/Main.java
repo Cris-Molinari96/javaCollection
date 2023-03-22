@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._1_javaBasic._17_otherUsefulType;
+package _1_javaExerciseForGithub._1_javaBasic._17_otherUsefulType;
 
 import java.time.LocalDate;
 import java.time.Month;

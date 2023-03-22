@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._1_javaBasic._14_forLoops;
+package _1_javaExerciseForGithub._1_javaBasic._14_forLoops;
 
 import java.util.Arrays;
 import java.util.List;

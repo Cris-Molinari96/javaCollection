@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._4_javaAdvancedOOP._1_inheritance;
+package _1_javaExerciseForGithub._4_javaAdvancedOOP._1_inheritance;
 
 public class Bird extends Animal{
     private double wingSpan;

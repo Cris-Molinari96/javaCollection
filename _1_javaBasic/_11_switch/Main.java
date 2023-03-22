@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._1_javaBasic._11_switch;
+package _1_javaExerciseForGithub._1_javaBasic._11_switch;
 
 public class Main {
     public static void main(String[] args) {

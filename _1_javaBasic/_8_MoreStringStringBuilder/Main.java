@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._1_javaBasic._8_MoreStringStringBuilder;
+package _1_javaExerciseForGithub._1_javaBasic._8_MoreStringStringBuilder;
 
 
 public class Main {

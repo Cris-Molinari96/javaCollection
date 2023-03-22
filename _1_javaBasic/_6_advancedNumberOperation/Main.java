@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._1_javaBasic._6_advancedNumberOperation;
+package _1_javaExerciseForGithub._1_javaBasic._6_advancedNumberOperation;
 
 public class Main {
     public static void main(String[] args) {

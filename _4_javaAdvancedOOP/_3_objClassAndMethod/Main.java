@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._4_javaAdvancedOOP._3_objClassAndMethod;
+package _1_javaExerciseForGithub._4_javaAdvancedOOP._3_objClassAndMethod;
 
 public class Main {public static void main(String[] args) {
     exercise1();

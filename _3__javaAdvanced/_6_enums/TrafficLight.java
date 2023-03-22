@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._3__javaAdvanced._6_enums;
+package _1_javaExerciseForGithub._3__javaAdvanced._6_enums;
 
 public enum TrafficLight {
     // O un altro modo per risolvere quest'esercizio sarebbe stato aggiungere in constr. , e creare un metodo che prende in ingresso un int

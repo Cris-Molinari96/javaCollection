@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._4_javaAdvancedOOP._2_abstractClassesInterfaces._ex_3;
+package _1_javaExerciseForGithub._4_javaAdvancedOOP._2_abstractClassesInterfaces._ex_3;
 
 public class Main {
     public static void main(String[] args) {

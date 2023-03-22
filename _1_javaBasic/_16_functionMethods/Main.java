@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._1_javaBasic._16_functionMethods;
+package _1_javaExerciseForGithub._1_javaBasic._16_functionMethods;
 
 import java.util.Arrays;
 import java.util.List;

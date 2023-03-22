@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._4_javaAdvancedOOP._2_abstractClassesInterfaces._ex_1;
+package _1_javaExerciseForGithub._4_javaAdvancedOOP._2_abstractClassesInterfaces._ex_1;
 
 abstract class Shape {
     protected double height,width;

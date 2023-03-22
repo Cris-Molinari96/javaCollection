@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._3__javaAdvanced._7_junit;
+package _1_javaExerciseForGithub._3__javaAdvanced._7_junit;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

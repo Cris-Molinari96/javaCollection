@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._1_javaBasic._3_javaPrimitivesLiterals;
+package _1_javaExerciseForGithub._1_javaBasic._3_javaPrimitivesLiterals;
 
 public class Main {
     public static void main(String[] args) {

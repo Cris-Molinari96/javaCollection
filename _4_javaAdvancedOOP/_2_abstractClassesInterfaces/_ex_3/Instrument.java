@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._4_javaAdvancedOOP._2_abstractClassesInterfaces._ex_3;
+package _1_javaExerciseForGithub._4_javaAdvancedOOP._2_abstractClassesInterfaces._ex_3;
 
 abstract class Instrument implements Playable {
     // la classe Instrument implementando l'interfaccia Playable implementa anche il suo metodo

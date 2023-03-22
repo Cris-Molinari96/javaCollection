@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._2_javaOOP._4_scopeAccessModifiers_staticAndFinal;
+package _1_javaExerciseForGithub._2_javaOOP._4_scopeAccessModifiers_staticAndFinal;
 
 import java.util.Random;
 

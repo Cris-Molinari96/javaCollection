@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._1_javaBasic._9_ifStatments_booleans;
+package _1_javaExerciseForGithub._1_javaBasic._9_ifStatments_booleans;
 
 public class Main {
     public static void main(String[] args) {

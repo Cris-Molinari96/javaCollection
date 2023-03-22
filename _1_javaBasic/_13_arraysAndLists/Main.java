@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._1_javaBasic._13_arraysAndLists;
+package _1_javaExerciseForGithub._1_javaBasic._13_arraysAndLists;
 
 import java.util.ArrayList;
 import java.util.Random;

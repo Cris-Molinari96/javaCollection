@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._4_javaAdvancedOOP._2_abstractClassesInterfaces._ex_2;
+package _1_javaExerciseForGithub._4_javaAdvancedOOP._2_abstractClassesInterfaces._ex_2;
 
 public class Boat implements Movable{
     private double metriPercorsi;

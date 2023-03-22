@@ -1,6 +1,4 @@
-package a_javaExerciseForGithub._3__javaAdvanced._3_collection;
-
-import org.w3c.dom.ls.LSOutput;
+package _1_javaExerciseForGithub._3__javaAdvanced._3_collection;
 
 import java.util.*;
 

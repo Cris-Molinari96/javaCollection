@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._1_javaBasic._10_advancedBoolEquals;
+package _1_javaExerciseForGithub._1_javaBasic._10_advancedBoolEquals;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._2_javaOOP._1_createClasses;
+package _1_javaExerciseForGithub._2_javaOOP._1_createClasses;
 
 public class Student {
     private String name;

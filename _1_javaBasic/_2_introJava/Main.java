@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._1_javaBasic._2_introJava;
+package _1_javaExerciseForGithub._1_javaBasic._2_introJava;
 
 public class Main {
     // metodo principale, punto d'ingresso

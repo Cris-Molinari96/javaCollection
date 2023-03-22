@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._3__javaAdvanced._2_maps;
+package _1_javaExerciseForGithub._3__javaAdvanced._2_maps;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package a_javaExerciseForGithub._2_javaOOP._3_encapsulation;
+package _1_javaExerciseForGithub._2_javaOOP._3_encapsulation;
 
 public class Student {
         private String name;
