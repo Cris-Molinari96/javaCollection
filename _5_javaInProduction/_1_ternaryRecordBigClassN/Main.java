@@ -2,6 +2,7 @@ package _1_javaExerciseForGithub._5_javaInProduction._1_ternaryRecordBigClassN;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.math.MathContext;
 
 public class Main {
     public static void main(String[] args) {
@@ -67,8 +68,7 @@ public class Main {
             // Decimal
         BigDecimal bigDecimal = new BigDecimal("5955.99");
         BigDecimal bd = new BigDecimal(Math.PI);
-        System.out.println(bd);
-        BigDecimal newBigD = bigDecimal.divide(bd);
+        BigDecimal newBigD = bigDecimal.divide(bd, MathContext.DECIMAL32);
         System.out.println(newBigD);
 
     }
