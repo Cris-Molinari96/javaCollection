@@ -103,7 +103,7 @@ public class Main {
         try {
             // Your code here
             int numOfWords = 0;
-            String[] str = Files.readString(MY_PATH).split(" ");
+            String[] str = Files.readString(MY_PATH).split(".");
             for (String s : str) {
                 numOfWords++;
             }

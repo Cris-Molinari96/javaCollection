@@ -106,9 +106,9 @@ public class Main {
     }
 
     /**
-     * 4: Edit the fori loop below so it prints the 8 multiplication table
+     * 4: Edit the fori loop below so it prints the 8 multiplication Table
      * <p>
-     * Bonus, how could we use a single variable to change our times table?
+     * Bonus, how could we use a single variable to change our times Table?
      * <p>
      * Multiplication tables, in case my vocabulary is different:
      * <a href="https://i.pinimg.com/originals/e0/ca/5f/e0ca5f21a16a02edbba8b758e7aa4af5.jpg">
