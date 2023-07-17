@@ -20,7 +20,7 @@ public class Main {
         System.out.println("\nExercise 1:");
 
         String ourNumberStr = "88";
-        int number = Integer.valueOf(ourNumberStr);
+        int number = Integer.parseInt(ourNumberStr);
         System.out.println(number + 2 ); // 90
         String newOurNumberStr = String.valueOf(number);
         System.out.println(newOurNumberStr + 2 ); // 882
@@ -44,9 +44,6 @@ public class Main {
         int charAtIndex = 6; // <--- Change this line
         System.out.println("Make this print 'w' -> current result: '" + anotherString.charAt(charAtIndex) + "'");
     }
-
-
-
 
     /**
      * 3: This exercise currently throws 'exceptions' (big red error messages in our console)
