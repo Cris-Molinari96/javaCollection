@@ -11,7 +11,7 @@ public class Main {
     }
 
     /**
-     * 1: Add 8 random integers to the array list
+     * 1: Add 8 random integers to the array _1_list
      * <p>
      * Print out the first item
      * <p>
@@ -45,9 +45,9 @@ for(int i = 0; i < 8; i++){
     /**
      * 2: Create 2 Array Lists,
      * <p>
-     * A list of strings called 'menuItems'
+     * A _1_list of strings called 'menuItems'
      * <p>
-     * And a list of Doubles called 'menuPrices'
+     * And a _1_list of Doubles called 'menuPrices'
      * <p>
      * The indexes of these two lists correspond to eachother
      * <p>

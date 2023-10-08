@@ -89,7 +89,7 @@ if(poundToEuroExchangeRate < 1.15){
                     o anche un foreach ciclando le azioni che ha a disposizione ogni utente?
      *
      *
-     * Q2: We have a list of 1000 users to send emails to
+     * Q2: We have a _1_list of 1000 users to send emails to
      * A2: foreach credo forse sia un caso d'utilizzo migliore, meno sintassi da rispettare, ciclo uno user alla volta
      *
      * Q3: We want to print out the first 80 customer names from our bank database

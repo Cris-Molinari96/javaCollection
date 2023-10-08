@@ -12,16 +12,16 @@ public class Main {
 
     /**
      * 1: Complete the function that removes any duplicates by using a set
-     *    then recreates a new list of unique items
+     *    then recreates a new _1_list of unique items
      *
-     *   You can reset a list by using list = new ArrayList<>();
+     *   You can reset a _1_list by using _1_list = new ArrayList<>();
      */
     private static void exercise1() {
         List<String> list = new ArrayList<>(Arrays.asList("a", "b", "c", "a", "b", "c", "a", "b", "c"));
 
         // Your code here
         Set <String> set = new HashSet<>(list); // --> oppure gli potevo anche passare un set
-        list = new ArrayList<>(new HashSet<>(list)); // set al posto d list
+        list = new ArrayList<>(new HashSet<>(list)); // set al posto d _1_list
 
         if (list.size() == 3) {
             System.out.println("Exercise 1: Success");
@@ -39,14 +39,14 @@ public class Main {
         // Your code here
         List<String> list = Arrays.asList("apple", "banana", "apple", "orange", "kiwi", "banana");
         Set<String> set = Set.of("apple", "banana");
-        System.out.print("to list -> " + toList(list));
+        System.out.print("to _1_list -> " + toList(list));
         System.out.println("\n");
         System.out.print("to set -> " + toSet(set));
     }
 
     // Write your method for exercise 2 here
     public static List toList(List <String> list){
-//        for (String l : list) {}
+//        for (String l : _1_list) {}
         return list;
     }
     public static Set toSet(Set <String> set){

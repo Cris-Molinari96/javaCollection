@@ -100,7 +100,7 @@ public class Negozio {
         }
     }
     /**
-     * method that generate a list of type products
+     * method that generate a _1_list of type products
      */
     public void  generateList() {
         Set<String> nameList = new HashSet<>();

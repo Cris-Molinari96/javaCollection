@@ -35,7 +35,7 @@ public class Shop {
 
     }
     /**
-     * that method add a list of article to the map
+     * that method add a _1_list of article to the map
      * @param articles
      * @param nPezzi
      */
@@ -66,7 +66,7 @@ public class Shop {
         }
     }
     /**
-     * that method remove a list of article to the map
+     * that method remove a _1_list of article to the map
      * @param articles
      * @param nPezzi
      */

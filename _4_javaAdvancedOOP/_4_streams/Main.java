@@ -17,7 +17,7 @@ public class Main {
 
     /**
      * 1:
-     * Use filter to select only even numbers from the list 'ourNumbers'
+     * Use filter to select only even numbers from the _1_list 'ourNumbers'
      * Use forEach to print the selected even numbers
      * %
      */
@@ -29,7 +29,7 @@ public class Main {
 
     /**
      * 2:
-     * Use filter to select only odd numbers from the list 'ourNumbers'
+     * Use filter to select only odd numbers from the _1_list 'ourNumbers'
      * Use the toSet() method to collect the selected odd numbers in a Set
      * Print the resulting Set
      */
@@ -57,7 +57,7 @@ public class Main {
 
     /**
      * 4:
-     * Use filter to select only even numbers from the list 'ourNumbers'
+     * Use filter to select only even numbers from the _1_list 'ourNumbers'
      * Use map to multiply the even numbers by 2
      * Use the toSet() method to collect the resulting numbers in a Set
      * Print the resulting Set
