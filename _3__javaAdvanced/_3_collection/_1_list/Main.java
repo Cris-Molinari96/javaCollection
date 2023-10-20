@@ -24,13 +24,13 @@ public class Main {
 //       List<Integer> subList = linkedList.subList(linkedList.size() - 5, linkedList.size()); // mostra gli ultimi 5 elementi inseriti
 //        subList.forEach(i -> System.out.println(i));
         /**** Metodi di aggiunta*/
-        linkedListString.offerFirst("OfferFirst"); // viene prima di addFirst
-        linkedListString.addFirst("AddFirt");
-        linkedListString.addLast("AddLast");
-        linkedListString.offerLast("OfferLast"); // ha più poter di AddLast
-        linkedListString.add("add"); // si aggiunge alla coda, ha meno potere di offer
-        linkedListString.offer("offer"); // si aggiunge alla coda
-        linkedListString.push("Push"); // aggiunge l'elemento come primo item
+//        linkedListString.offerFirst("OfferFirst"); // viene prima di addFirst
+//        linkedListString.addFirst("AddFirt");
+//        linkedListString.addLast("AddLast");
+//        linkedListString.offerLast("OfferLast"); // ha più poter di AddLast
+//        linkedListString.add("add"); // si aggiunge alla coda, ha meno potere di offer
+//        linkedListString.offer("offer"); // si aggiunge alla coda
+//        linkedListString.push("Push"); // aggiunge l'elemento come primo item
 
 //        linkedListString.forEach(s -> System.out.println(s));
 
@@ -55,28 +55,29 @@ public class Main {
 
         /*! Iterator interfaccia */
         Iterator<String> iterator = linkedListString.iterator();
-        ListIterator<String> listIterator = linkedListString.listIterator();
+        ListIterator<String> listIterator = linkedListString.listIterator(linkedListString.size());
 
-        while (iterator.hasNext()){
-            System.out.println("Iteratore --> "+iterator.next());
+        while (iterator.hasNext()) {
+//            System.out.println("Iteratre --> "+iterator.next());
         }
         System.out.println("\n");
 
-        while (listIterator.hasNext()){
+        while (listIterator.hasNext()) {
             String s = listIterator.next();
-            if(s.equals("Push")){
+            if (s.equals("Push")) {
                 listIterator.set("FuckingPush");
 //                System.out.println( s + " " + listIterator.previous());
             }
         }
 
-        while (listIterator.hasPrevious()){
-            System.out.println("Previous --> "+listIterator.previous());
+        while (listIterator.hasPrevious()) {
+            System.out.println("Previous --> "+ listIterator.previous());
         }
         System.out.println("\n");
 
-        while (listIterator.hasNext()){
-            System.out.println("Next --> "+ listIterator.next());
+        while (listIterator.hasNext()) {
+//            System.out.printl("Next --> "+ listIterator.next());
         }
     }
+
 }
