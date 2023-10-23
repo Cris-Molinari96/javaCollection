@@ -12,7 +12,15 @@ public class Main {
         Lambda s = (x) -> {
             System.out.println("Ciao mondo io sono " + x);
         };
-        s.hello("Cristian");
+//        s.hello("Cristian");
+
+/*! Esempio che dobbiamo far riferimento alla firma del metodo per poter eseguire una lamda; */
+        FuncInterface method = (String name) -> {
+            System.out.println("Hello world!!!" + name);
+        };
+
+        method.printHello("Fuck");
+
     }
 
 }

@@ -1,4 +1,4 @@
-package _1_javaExerciseForGithub._5_javaInProduction._2_streams;
+package _1_javaExerciseForGithub._5_javaInProduction._2_streams._1_;
 
 import java.util.List;
 import java.util.Set;
@@ -13,6 +13,8 @@ public class Main {
         exercise4();
     }
 
+    // il metodo boxed ci consente di trasfromare un oggetto IntStrem, in un oggetto Stream,
+    // che può essere utilizzato per creare un oggetto list, in fine infatti utilizzo il toList per ritornare una lista
     private static List<Integer> ourNumbers = IntStream.range(1, 10).boxed().toList();
 
     /**
@@ -24,10 +26,11 @@ public class Main {
     private static void exercise1() {
         System.out.println("\nExercise 1: ");
         // Your code here
+
         ourNumbers.stream().filter(n -> n % 2 == 0).forEach(n -> System.out.println(n));
     }
 
-    /**
+    /** In questo metodo filtriamo tutti gli oggetti, secondo l'espressione del metodo filter
      * 2:
      * Use filter to select only odd numbers from the _1_list 'ourNumbers'
      * Use the toSet() method to collect the selected odd numbers in a Set

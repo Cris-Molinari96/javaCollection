@@ -1,9 +1,12 @@
-package _1_javaExerciseForGithub._5_javaInProduction._99extra_functionLambda._5_;
+package _1_javaExerciseForGithub._5_javaInProduction._99extra_functionLambda._5_allOperationT;
+
+import java.util.function.BinaryOperator;
 
 public class Main {
     public static void main(String[] args) {
 
-        calculator((a,b) -> a + b, 5,2);
+//        calculator((a,b) -> a + b, 5,2); //! equivalente di --> riga successiva
+        calculator(Integer::sum, 5,2);
         Integer integer = calculator((a,b) -> a + b, 5,10);
 
         System.out.println(integer);
@@ -16,6 +19,7 @@ public class Main {
         };
 
         // anche se passo i valori alla fine viene eseguito ot
+
         Integer num = (int)ot.operationValue(5,5);
         System.out.println("ot --> " + ot);
         System.out.println("num --> " + num);
@@ -24,6 +28,9 @@ public class Main {
 
         Integer myNum = myCalculator((a,b,c) -> a+b+c, 5,1,2);
         System.out.println(myNum);
+
+        System.out.println("_____");
+        Integer myCalc = binaryOperator((a,b) -> a+b, 5,5);
     }
 
     // abbiamo definito un metodo statico che accetta come ritorno un qualsiasi tipo di dato.
@@ -41,4 +48,12 @@ public class Main {
     public static <T> T myCalculator(MyOperation<T> function, T v1, T v2, T v3){
         return function.myOperation2(v1,v2,v3);
     }
+
+    public static <T> T binaryOperator(BinaryOperator<T> operazione, T value1,T value2){
+        return operazione.apply(value1,value2);
+    }
+
+
 }
+
+

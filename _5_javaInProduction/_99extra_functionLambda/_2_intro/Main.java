@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         MyLamdaImplemnt myLamdaImplemnt = new MyLamdaImplemnt();
+
         myLamdaImplemnt.helloString("");
 
     }
